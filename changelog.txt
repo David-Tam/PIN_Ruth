@@ -1,0 +1,37 @@
+v0.2
+
+This is the base version Kris sent, nothing touched. Copied it to v0.3.
+
+***************************************************************
+v0.3
+
+The interface is fixed and able to be opened now. Upgraded to v1.0
+
+***************************************************************
+v1.0
+
+Now the vis.mac works too. Code changed in vis.mac as below:
+
+/control/verbose 2
+/control/saveHistory
+/run/verbose 2
+/run/initialize
+/vis/scene/create
+/vis/open OGLSQt
+/vis/viewer/flush
+/vis/drawView 40 40
+/tracking/verbose 0
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories
+/vis/scene/endOfEventAction accumulate
+***************************************************************
+v1.1
+
+Working version with dead layer implemented.
+***************************************************************
+v1.2
+
+Working wersion with no dead layer implemented.
+***************************************************************
+v2.0
+

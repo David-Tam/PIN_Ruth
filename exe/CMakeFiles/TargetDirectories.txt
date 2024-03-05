@@ -1,0 +1,7 @@
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/install/strip.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/install/local.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/install.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/list_install_components.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/rebuild_cache.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/edit_cache.dir
+/mnt/642ca650-13b4-4f85-9e89-67cf1189229d/david/home_backup/geant4/PIN_Ruth/exe/CMakeFiles/PIN_Ruth.dir

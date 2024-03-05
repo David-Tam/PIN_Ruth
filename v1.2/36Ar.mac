@@ -1,0 +1,34 @@
+#INITIALIZATION IS REQUIRED ONCE THE PHYSICS COMMANDS HAVE BEEN SET UP
+/Run/Initialize
+#
+# Add HPGe detectors
+#
+#/Griffin/UseTIGRESSPositions true
+#/Griffin/addGriffinBack 16
+/Physics/Step 0.05 um
+/Physics/StoppingTable /opt/GEANT4/share/Geant4-10.7.2/data/G4EMLOW7.13/ion_stopping_data/icru73/
+/Projectile/A 36
+/Projectile/Z 18
+/Projectile/KE 63 MeV
+/Projectile/Focus/X -2. mm
+/Projectile/Focus/Y 0. mm
+/Projectile/Focus/Z -50. mm
+/Projectile/Focus/DX 0. mm
+/Projectile/Focus/DY 0. mm
+/Recoil/A 12
+/Recoil/Z 6
+/Backing/Material G4_Au
+/Backing/A 197
+/Backing/Thickness 11.8 um
+/Backing/NStep 50
+/Target/Material G4_C
+/Target/A 12
+/Target/Z 6
+/Target/Thickness 1.9 um
+/Target/NStep 50
+/Target/Report
+/Trigger/PIN
+/Reaction/SetBmax 20
+/run/beamOn 100000000
+#/run/beamOn  1000000
+/Results/Tree/Save 36Ar.root
